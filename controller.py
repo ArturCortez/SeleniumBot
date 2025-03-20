@@ -50,7 +50,6 @@ def main():
     time.sleep(2)
     bot.access_iframe(elements["iframe"]["attribute"], elements["iframe"]["value"])
     
-    bot.click_by_attr(elements["realter"]["attribute"], elements["realter"]["value"])
     bot.click_by_id(elements.get("consent"))
 
 
